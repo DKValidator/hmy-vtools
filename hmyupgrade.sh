@@ -4,6 +4,6 @@
 rm -r ~/hmybackup
 mkdir ~/hmybackup
 cp ~/harmony ~/hmybackup
-curl -LO https://harmony.one/binary && mv binary ~/harmony && chmod +x ~/harmony
+curl -LO ~/hmybinary https://harmony.one/binary && mv ~/hmybinary ~/harmony && chmod +x ~/harmony
 sudo service harmony restart
 ~harmony -V

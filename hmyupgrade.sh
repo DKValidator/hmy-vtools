@@ -1,3 +1,4 @@
+#!/bin/bash
 # This script assumes the Harmony binary is installed as harmony in the users home directory
 
 ~/harmony -V
